@@ -1,2 +1,44 @@
 # CalendarPageView
+
 a quick,simple,custom month view 
+
+##Preview
+
+
+
+## Customization
+
+One of the aims of this library is to be customizable.
+
+Options available in Java and as XML attributes:
+
+|Attribute          |Type     |Description                                         |
+|---                |---      |---                                                 |
+|weekTextStyle      |style    |Set weekday title text style                        |
+|todayTextStyle     |style    |Set today text style                                |
+|notCurrentTextStyle|style    |Set text style of the day out of current shown month|
+|dayTextStyle       |style    |Common  day text style                              |
+|daySelector        |drawable |Day click selector                                  |
+
+## API available
+
+|Method	                 |Description                      |
+|---                     |---                              |
+|setCurrentMonth()	     |Set the monthView's current month|
+|selectCal()	         |Select day                       |
+|setOnDaySelectListener()|Set the callback of select day   |
+
+## Usage
+
+
+## About me
+
+- [Kyson's Blog](http://www.hikyson.cn)
+- [Kyson's OSC](http://git.oschina.net/cocobaby)
+- [Follow Me](http://weibo.com/1980495343/profile?rightmod=1&wvr=6&mod=personinfo)
+
+## License
+
+Copyright (c) 2015 Kyson
+
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)

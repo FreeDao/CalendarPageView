@@ -43,7 +43,7 @@ public class CalendarPageView extends LinearLayout {
             //星期是card
             weekTextStyle = typedArray.getResourceId(
                     R.styleable.TtCalendar_weekTextStyle,
-                    R.style.textView_sp12_green);
+                    R.style.textView_sp13_grey_bg_bold);
         } else {
             weekTextStyle = R.style.textView_sp13_grey_bg_bold;
         }

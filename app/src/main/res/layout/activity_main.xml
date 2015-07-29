@@ -2,19 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <com.tt.calendarpageview.CalendarPageView
-        xmlns:cal="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/wtf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/primary"
-        cal:weekTextStyle="@style/textView_sp12_green"
-        cal:todayTextStyle="@style/textView_sp13_grey_bg_bold"
-        cal:notCurrentTextStyle="@style/textView_sp12_white"
-        cal:dayTextStyle="@style/textView_sp12_green"
-        cal:daySelector="@drawable/widget_item_calendar_cardview_custom_selector"
-        android:id="@+id/wtf"></com.tt.calendarpageview.CalendarPageView>
+        android:background="@color/primary"></com.tt.calendarpageview.CalendarPageView>
 
 
 </RelativeLayout>
