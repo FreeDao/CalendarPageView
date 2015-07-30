@@ -6,6 +6,26 @@ a quick,simple,custom month view
 
 ![https://raw.githubusercontent.com/Kyson/CalendarPageView/master/images/preview.png](https://raw.githubusercontent.com/Kyson/CalendarPageView/master/images/preview.png)
 
+## Usage
+
+- Setup Gradle
+
+```
+dependencies {
+    compile 'com.tt:calendarpageview:1.0.0'
+}
+```
+
+- Like the use of the other widgets.
+
+```xml
+<com.tt.calendarpageview.CalendarPageView
+        android:id="@+id/wtf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"></com.tt.calendarpageview.CalendarPageView>
+```
+
 ## Customization
 
 One of the aims of this library is to be customizable.
@@ -27,18 +47,6 @@ Options available in Java and as XML attributes:
 |setCurrentMonth()	     |Set the monthView's current month|
 |selectCal()	         |Select day                       |
 |setOnDaySelectListener()|Set the callback of select day   |
-
-## Usage
-
-Like the use of the other widgets.
-
-```xml
-<com.tt.calendarpageview.CalendarPageView
-        android:id="@+id/wtf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/primary"></com.tt.calendarpageview.CalendarPageView>
-```
 
 ## About me
 
