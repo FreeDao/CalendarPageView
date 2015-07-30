@@ -10,7 +10,7 @@ a quick,simple,custom month view
 
 - Setup Gradle
 
-```
+```gradle
 dependencies {
     compile 'com.tt:calendarpageview:1.0.0'
 }
@@ -30,7 +30,7 @@ dependencies {
 
 One of the aims of this library is to be customizable.
 
-Options available in Java and as XML attributes:
+Options available in XML attributes:
 
 |Attribute          |Type     |Description                                         |
 |---                |---      |---                                                 |
